@@ -10,7 +10,7 @@
 <!ENTITY packagefile "&packageName;.txz">
 <!ENTITY github      "arcoast/compose_plugin">
 <!ENTITY pluginURL   "https://raw.githubusercontent.com/&github;/test/&name;.plg">
-<!ENTITY packageURL  "https://github.com/&github;/blob/test/archive/&version;/&packagefile;">
+<!ENTITY packageURL  "https://github.com/&github;/raw/test/archive/&version;/&packagefile;">
 <!ENTITY pluginLOC   "/boot/config/plugins/&name;">
 <!ENTITY emhttpLOC   "/usr/local/emhttp/plugins/&name;">
 ]>
