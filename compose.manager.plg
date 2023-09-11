@@ -1,15 +1,15 @@
 <?xml version='1.0' standalone='yes'?>
 <!DOCTYPE PLUGIN [
 <!ENTITY name        "compose.manager">
-<!ENTITY author      "dcflachs">
-<!ENTITY version     "2023.05.24">
+<!ENTITY author      "arcoast">
+<!ENTITY version     "2023.09.11">
 <!ENTITY launch      "Settings/&name;">
 <!ENTITY packageVER  "&version;">
-<!ENTITY packageMD5  "dab785bd5ce408be3356ae02c3336260">
+<!ENTITY packageMD5  "c9e40bdca7870479565165843b2a0ca3">
 <!ENTITY packageName "&name;-package-&packageVER;">
 <!ENTITY packagefile "&packageName;.txz">
-<!ENTITY github      "dcflachs/compose_plugin">
-<!ENTITY pluginURL   "https://raw.githubusercontent.com/&github;/main/&name;.plg">
+<!ENTITY github      "arcoast/compose_plugin">
+<!ENTITY pluginURL   "https://raw.githubusercontent.com/&github;/test/&name;.plg">
 <!ENTITY packageURL  "https://github.com/&github;/releases/download/&version;/&packagefile;">
 <!ENTITY pluginLOC   "/boot/config/plugins/&name;">
 <!ENTITY emhttpLOC   "/usr/local/emhttp/plugins/&name;">
@@ -25,6 +25,8 @@
 >
 
 <CHANGES>
+###2023.09.11
+- Update to 2.21
 ###2023.05.24 
 - Fix to patch_ui.sh for 6.12
 ###2023.04.27 
